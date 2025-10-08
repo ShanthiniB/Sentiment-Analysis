@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
 
 # Load your dataset
-df = pd.read_csv("C:\Users\Shanthini\OneDrive\Desktop\Sentiment Analysis Project\sentiment_analysis.csv")
+df = pd.read_csv("C:/Users/Shanthini/OneDrive/Desktop/Sentiment Analysis Project/sentiment_analysis.csv")
 
 # Encode categorical columns
 label_encoder_time = LabelEncoder()
