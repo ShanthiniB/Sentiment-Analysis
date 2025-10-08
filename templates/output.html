@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Output</title>
+</head>
+<body>
+    <h2>Prediction Result</h2>
+    <p><strong>Your tweet:</strong> {{ text }}</p>
+    <p><strong>Sentiment Code:</strong> {{ prediction }}</p>
+    <p><strong>Sentiment Label:</strong> {{ label }}</p>
+    <p>0 is for Negative<br>1 is for Neutral<br>2 is for Positive</p>
+    <a href="{{ url_for('user_input') }}">Try Again</a>
+</body>
+</html>
